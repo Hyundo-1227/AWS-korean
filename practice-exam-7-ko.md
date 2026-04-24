@@ -2,7 +2,7 @@
 layout: exam
 ---
 
-# 연습 시험 7
+# Practice Exam 7 (한국어)
 
 1. 다음 중 Amazon S3에서 중요한 데이터를 보호하는 데 도움이 되는 것은 무엇입니까? (2개 선택)
     - A. 데이터가 암호화되면 암호화 키를 삭제하세요.
@@ -16,10 +16,10 @@ layout: exam
     </details>
 
 2. 개발자가 코드를 컴파일하고 테스트하는 데 도움이 되는 AWS 서비스는 무엇입니까?
-    - A. AWS 코드배포.
-    - B. AWS 코드커밋.
+    - A. AWS CodeDeploy.
+    - B. AWS CodeCommit.
     - C. CloudEndure.
-    - D. AWS 코드빌드.
+    - D. AWS CodeBuild.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
@@ -37,7 +37,7 @@ layout: exam
     </details>
 
 4. Amazon CloudFront 서비스는 무엇을 제공합니까? (2개 선택)
-    - A. 사용자 활동 및 APl 사용을 추적합니다.
+    - A. 사용자 활동 및 API 사용을 추적합니다.
     - B. 엣지에서 캐싱하여 애플리케이션 가용성을 높입니다.
     - C. 더 빠른 재해 복구가 가능합니다.
     - D. 매우 저렴한 비용으로 아카이브된 데이터를 저장합니다.
@@ -47,17 +47,17 @@ layout: exam
       Correct answer: B, E
     </details>
 
-5. 현재 컨택센터에 많은 문제가 있습니다. 고객에게 더 나은 서비스를 제공할 수 있는 클라우드 기반 컨택 센터를 제공하는 서비스는 무엇입니까?
-    - A. 아마존 라이트세일.
-    - B. 아마존 커넥트.
-    - C. AWS 다이렉트 커넥트.
-    - D. AWS 엘라스틱 빈스토크.
+5. 현재 사용 중인 컨택 센터에서 많은 문제가 발생하고 있습니다. 고객에게 더 나은 서비스를 제공할 수 있는 클라우드 기반 컨택 센터 서비스는 무엇입니까?
+    - A. Amazon Lightsail.
+    - B. Amazon Connect.
+    - C. AWS Direct Connect.
+    - D. AWS Elastic Beanstalk.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
     </details>
 
-6. 최근에 애플리케이션을 AWS로 마이그레이션하셨습니다. 계정에 적용된 AWS 비용을 어떻게 볼 수 있습니까?
+6. 최근에 애플리케이션을 AWS로 마이그레이션하셨습니다. 계정에 청구된 AWS 비용은 어떻게 확인할 수 있습니까?
     - A. AWS 비용 및 사용 보고서 사용.
     - B. AWS 총 소유 비용(TCO) 대시보드를 사용합니다.
     - C. AWS CloudWatch 로그 대시보드 사용.
@@ -67,28 +67,28 @@ layout: exam
       Correct answer: A
     </details>
 
-7. 다음 중 유효한 Amazon EC2 예약 인스턴스 유형은 무엇입니까? (2개 선택)
-    - A. 바꾸어 말할 수 있는.
-    - B. 신속.
-    - C. 대부분.
-    - D. 점.
-    - E. 기준.
+7. 다음 중 Amazon EC2 Reserved Instance의 유효한 유형은 무엇입니까? (2개 선택)
+    - A. Convertible.
+    - B. Expedited.
+    - C. Bulk.
+    - D. Spot.
+    - E. Standard.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, E
     </details>
 
 8. 다음 중 모든 AWS 감사자가 발행한 보고서 및 인증에 액세스할 수 있는 서비스는 무엇입니까?
-    - A. AWS 아티팩트.
-    - B. AWS 구성.
-    - C. 아마존 클라우드워치.
-    - D. AWS 클라우드트레일.
+    - A. AWS Artifact.
+    - B. AWS Config.
+    - C. Amazon CloudWatch.
+    - D. AWS CloudTrail.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
     </details>
 
-9. 개발, 테스트, 프로덕션 등 다양한 환경이 있는 AWS에서 블로그를 관리합니다. 리소스를 쉽게 보고 관리하기 위해 각 환경에 대한 사용자 지정 콘솔을 만드는 데 무엇을 사용할 수 있습니까?
+9. 개발, 테스트, 프로덕션 등 다양한 환경이 있는 AWS에서 블로그를 관리합니다. 리소스를 쉽게 보고 관리하기 위해 각 환경에 대한 사용자 지정 대시보드을 만드는 데 무엇을 사용할 수 있습니까?
     - A. AWS 리소스 그룹.
     - B. AWS 배치 그룹.
     - C. AWS 관리 콘솔.
@@ -98,38 +98,38 @@ layout: exam
       Correct answer: A
     </details>
 
-10. 실행 중인 EC2 인스턴스에서 지표를 수집하는 AWS 서비스는 무엇입니까?
-    - A. 아마존 인스펙터.
-    - B. 아마존 클라우드워치.
-    - C. AWS 클라우드포메이션.
-    - D. AWS 클라우드트레일.
+10. 실행 중인 EC2 인스턴스에서 메트릭을 수집하는 AWS 서비스는 무엇입니까?
+    - A. Amazon Inspector.
+    - B. Amazon CloudWatch.
+    - C. AWS CloudFormation.
+    - D. AWS CloudTrail.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
     </details>
 
-11. 귀하의 웹 애플리케이션은 현재 성능 문제에 직면해 있으며 로드 시간이 길어지고 있습니다. 다음 중 이러한 문제를 해결하고 성능을 향상시키는 데 도움이 될 수 있는 AWS 서비스는 무엇입니까?
-    - A. 아마존 탐정.
-    - B. AWS 엑스레이.
-    - C. AWS 보안 허브.
-    - D. AWS 쉴드.
+11. 현재 웹 애플리케이션에 성능 문제가 발생해 로딩 시간이 길어지고 있습니다. 다음 중 이러한 문제를 해결하고 성능을 향상시키는 데 도움이 될 수 있는 AWS 서비스는 무엇입니까?
+    - A. Amazon Detective.
+    - B. AWS X-Ray.
+    - C. AWS Security Hub.
+    - D. AWS Shield.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
     </details>
 
-12. 다음 컴퓨팅 리소스 중 서버리스인 것은 무엇입니까? (2개 선택)
-    - A. 아마존 EC2.
-    - B. AWS 파게이트.
-    - C. AWS 람다.
-    - D. 아마존 ECS.
-    - E. 아마존 EMR.
+12. 다음 중 서버리스 컴퓨팅 리소스는 무엇입니까? (2개 선택)
+    - A. Amazon EC2.
+    - B. AWS Fargate.
+    - C. AWS Lambda.
+    - D. Amazon ECS.
+    - E. Amazon EMR.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B, C
     </details>
 
-13. 규정 준수 및 규제 목적을 위해 정부 기관에서는 해당 응용 프로그램이 해당 기관 전용 하드웨어에서 실행되도록 요구합니다. 이 요구 사항을 어떻게 충족할 수 있습니까?
+13. 규정 준수 및 규제 목적을 위해 정부 기관에서는 해당 애플리케이션이 해당 기관 전용 하드웨어에서 실행되도록 요구합니다. 이 요구 사항을 어떻게 충족할 수 있습니까?
     - A. EC2 전용 호스트를 사용하세요.
     - B. EC2 예약 인스턴스를 사용하세요.
     - C. EC2 스팟 인스턴스를 사용하세요.
@@ -140,17 +140,17 @@ layout: exam
     </details>
 
 14. 기존 AWS 리소스를 최대한 활용하고 비용을 절감하기 위해 정기적으로 워크로드를 개선하는 것을 권장하는 AWS 비용 거버넌스 모범 사례는 무엇입니까?
-    - A. 태그 시행.
+    - A. 태깅 정책 적용.
     - B. 아키텍처 최적화.
     - C. 예산 프로세스.
-    - D. 자원 통제.
+    - D. 리소스 통제.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
     </details>
 
 15. 조직은 ACID 트랜잭션에 대한 지원이 필요한 금융 애플리케이션을 구축해야 합니다. 이 경우 어떤 AWS 데이터베이스 서비스가 가장 적합합니까?
-    - A. 레드시프트.
+    - A. Amazon Redshift.
     - B. RDS.
     - C. CloudHSM.
     - D. DMS.
@@ -181,9 +181,9 @@ layout: exam
 
 18. Amazon RDS는 선택할 수 있는 여러 데이터베이스 엔진을 지원합니다. 다음 중 해당되지 않는 것은 무엇입니까?
     - A. PostgreSQL.
-    - B. 신탁.
-    - C. 마이크로소프트 SQL 서버.
-    - D. 테라데이타.
+    - B. Oracle.
+    - C. Microsoft SQL Server.
+    - D. Teradata.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
@@ -191,9 +191,9 @@ layout: exam
 
 19. 다음 중 온프레미스 데이터베이스를 AWS로 마이그레이션하는 데 도움이 되는 AWS 서비스는 무엇입니까?
     - A. AWS DMS.
-    - B. Amazon S3 전송 가속화.
+    - B. Amazon S3 Transfer Acceleration.
     - C. AWS 디렉터리 서비스.
-    - D. AWS 대중교통 게이트웨이.
+    - D. AWS Transit Gateway.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
@@ -211,9 +211,9 @@ layout: exam
 
 21. 다음 중 AWS 클라우드에서 암호화 키를 관리하는 데 사용하는 것은 무엇입니까? (2개 선택)
     - A. AWS KMS.
-    - B. AWS 인증서 관리자.
-    - C. AWS 코드배포.
-    - D. AWS 코드커밋.
+    - B. AWS Certificate Manager.
+    - C. AWS CodeDeploy.
+    - D. AWS CodeCommit.
     - E. CloudHSM.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -221,10 +221,10 @@ layout: exam
     </details>
 
 22. 다음 중 맞춤형 관계형 데이터베이스 소프트웨어를 설치하고 실행할 수 있는 서비스는 무엇입니까?
-    - A. 아마존 EC2.
+    - A. Amazon EC2.
     - B. 아마존 코그니토.
     - C. 아마존 RDS.
-    - D. 아마존 인스펙터.
+    - D. Amazon Inspector.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
@@ -244,7 +244,7 @@ layout: exam
     - A. AWS IAM.
     - B. AWS 전초기지.
     - C. AWS 페더레이션.
-    - D. 아마존 레드시프트.
+    - D. 아마존 Amazon Redshift.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
@@ -272,8 +272,8 @@ layout: exam
     </details>
 
 27. 다음 중 AWS 클라우드에서 자체 암호화 키를 쉽게 생성하고 사용할 수 있게 해주는 서비스는 무엇입니까?
-    - A. AWS 쉴드.
-    - B. AWS 인증서 관리자.
+    - A. AWS Shield.
+    - B. AWS Certificate Manager.
     - C. AWS CloudHSM.
     - D. AWS WAF.
 
@@ -315,7 +315,7 @@ layout: exam
 
 31. AWS 고객은 다음 중 AWS에서 제공하는 서비스의 금지된 사용에 대해 자세히 알아보기 위해 어떤 리소스를 사용할 수 있습니까?
     - A. AWS 서비스 제어 정책(SCP).
-    - B. AWS 아티팩트.
+    - B. AWS Artifact.
     - C. AWS 예산.
     - D. AWS의 허용 가능한 사용 정책.
 
@@ -416,8 +416,8 @@ layout: exam
     </details>
 
 41. 클라우드에 데이터 웨어하우스를 구축할 수 있는 AWS 서비스는 무엇입니까?
-    - A. AWS 쉴드.
-    - B. 아마존 레드시프트.
+    - A. AWS Shield.
+    - B. 아마존 Amazon Redshift.
     - C. 아마존 RDS.
     - D. 아마존 컴프리헨드.
 
@@ -437,9 +437,9 @@ layout: exam
 
 43. 다음 중 애플리케이션 코드를 저장, 버전 관리 및 관리할 수 있는 AWS 리포지토리 관리 시스템은 무엇입니까?
     - A. AWS 코드파이프라인.
-    - B. AWS 코드커밋.
-    - C. AWS 엑스레이.
-    - D. 아마존 인스펙터.
+    - B. AWS CodeCommit.
+    - C. AWS X-Ray.
+    - D. Amazon Inspector.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
