@@ -2,7 +2,7 @@
 layout: exam
 ---
 
-# 연습 시험 8
+# Practice Exam 8 (한국어)
 
 1. Amazon RDS 인스턴스에 보안 그룹을 연결하면 가장 큰 이점은 무엇입니까?
     - A. 사용자 액세스 및 암호화 키를 관리합니다.
@@ -24,9 +24,9 @@ layout: exam
       Correct answer: A
     </details>
 
-3. 독립형 AWS 계정이 여러 개 있고 AWS 월별 요금을 줄이고 싶습니다. 당신은 무엇을 해야 합니까?
+3. 여러 개의 독립된 AWS 계정을 보유하고 있으며 월별 AWS 비용을 줄이려면 어떻게 해야 합니까?
     - A. 불필요한 AWS 계정을 제거해 보십시오.
-    - B. AWS 조직에 계정을 추가하고 통합 결제를 사용하십시오.
+    - B. AWS Organizations에 계정을 추가하고 통합 결제(Consolidated Billing)를 사용하십시오.
     - C. 회원 계정에서 발생한 AWS 요금을 추적합니다.
     - D. 리소스를 프로비저닝하기 전에 AWS 계층별 가격을 활성화하십시오.
 
@@ -44,11 +44,11 @@ layout: exam
       Correct answer: D
     </details>
 
-5. AWS "비즈니스" 지원 계획은 무엇을 제공합니까? (2개 선택)
+5. AWS Business Support 플랜은 무엇을 제공합니까? (2개 선택)
     - A. Trusted Advisor 점검 전체 세트에 액세스합니다.
     - B. 컨시어지 서비스를 지원합니다.
     - C. 비즈니스에 중요한 시스템이 다운되는 경우 15분 이내에 응답 시간 지원을 제공합니다.
-    - D. AWS 지원 API.
+    - D. AWS Support API.
     - E. 사전 기술 계정 관리.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -56,10 +56,10 @@ layout: exam
     </details>
 
 6. 방금 애플리케이션 코드 작성을 마쳤습니다. 애플리케이션 배포 및 확장을 자동화하는 데 어떤 서비스를 사용할 수 있나요?
-    - A. 아마존 심플 스토리지 서비스.
-    - B. AWS 엘라스틱 빈스토크.
-    - C. AWS 코드커밋.
-    - D. 아마존 탄력적 파일 시스템.
+    - A. Amazon Simple Storage Service (Amazon S3).
+    - B. AWS Elastic Beanstalk.
+    - C. AWS CodeCommit.
+    - D. Amazon Elastic File System (Amazon EFS).
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
@@ -98,8 +98,8 @@ layout: exam
     </details>
 
 10. 안전하고 잘 설계된 다중 계정 AWS 환경을 설정하고 관리하는 가장 쉬운 방법을 제공하는 AWS 서비스는 무엇입니까?
-    - A. AWS 컨트롤 타워.
-    - B. 아마존 메이시.
+    - A. AWS Control Tower.
+    - B. Amazon Macie.
     - C. AWS 시스템 관리자 패치 관리자.
     - D. AWS 보안 허브.
 
@@ -121,17 +121,17 @@ layout: exam
     - A. 아마존 EBS.
     - B. 아마존 RDS.
     - C. Amazon EC2 인스턴스 내에서는 데이터베이스를 실행할 수 없습니다.
-    - D. 아마존 다이나모DB.
+    - D. Amazon DynamoDB.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
     </details>
 
 13. 귀하는 AWS 환경에서 사이트 안정성 엔지니어(SRE)로 일하고 있습니다. 다음 중 귀하의 애플리케이션을 모니터링하는 데 도움이 되는 서비스는 무엇입니까?
-    - A. 아마존 클라우드워치.
+    - A. Amazon CloudWatch.
     - B. 아마존 클라우드서치.
     - C. Amazon Elastic MapReduce.
-    - D. 아마존 CloudHSM.
+    - D. AWS CloudHSM.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
@@ -184,14 +184,14 @@ layout: exam
     - A. 아마존 RDS.
     - B. AWS 전초기지.
     - C. 아마존 DocumentDB.
-    - D. 아마존 다이나모DB.
+    - D. Amazon DynamoDB.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
     </details>
 
 19. 다음 중 리소스를 더 쉽게 분류, 관리, 필터링할 수 있게 해주는 것은 무엇입니까?
-    - A. 아마존 클라우드워치.
+    - A. Amazon CloudWatch.
     - B. AWS 서비스 카탈로그.
     - C. AWS 디렉터리 서비스.
     - D. AWS 태깅.
@@ -211,7 +211,7 @@ layout: exam
     </details>
 
 21. 엔지니어들은 기존 데이터 센터에서 배치 컴퓨팅 소프트웨어를 관리하는 데 많은 시간과 노력을 낭비하고 있습니다. 다음 중 수천 개의 배치 컴퓨팅 작업을 쉽게 실행할 수 있는 AWS 서비스는 무엇입니까?
-    - A. 아마존 EC2.
+    - A. Amazon EC2.
     - B. AWS 배치.
     - C. 람다@엣지.
     - D. AWS 파게이트.
@@ -265,7 +265,7 @@ layout: exam
 26. 회사는 EC2 인스턴스를 사용하여 AWS에서 빅 데이터 애플리케이션을 호스팅해야 합니다. 여러 컴퓨팅 노드에 대한 높은 처리량을 자동으로 얻으려면 다음 중 어떤 AWS 스토리지 서비스를 선택해야 합니까?
     - A. 아마존 엘라스틱 블록 스토어.
     - B. AWS 스토리지 게이트웨이.
-    - C. 아마존 탄력적 파일 시스템.
+    - C. Amazon Elastic File System (Amazon EFS).
     - D. S3.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -317,7 +317,7 @@ layout: exam
     - A. 아마존 EFS.
     - B. AWS 비밀 관리자.
     - C. AWS 시스템 관리자.
-    - D. 아마존 클라우드프론트.
+    - D. Amazon CloudFront.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
@@ -326,8 +326,8 @@ layout: exam
 32. 다음 중 EBS 볼륨을 암호화할 때 사용되는 서비스는 무엇입니까?
     - A. AWS WAF.
     - B. AWS KMS.
-    - C. 아마존 메이시.
-    - D. 아마존 가드듀티.
+    - C. Amazon Macie.
+    - D. Amazon GuardDuty.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
@@ -429,10 +429,10 @@ layout: exam
     </details>
 
 42. 짧은 지연 시간과 높은 전송 속도로 전 세계 사용자에게 데이터, 비디오, 애플리케이션 및 API를 제공하는 AWS 서비스는 무엇입니까?
-    - A. 아마존 루트 53.
+    - A. Amazon Route 53.
     - B. 아마존 커넥트.
-    - C. 아마존 클라우드프론트.
-    - D. 아마존 EC2.
+    - C. Amazon CloudFront.
+    - D. Amazon EC2.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
@@ -462,7 +462,7 @@ layout: exam
     - A. AWS 지역.
     - B. 가용성 영역.
     - C. 엣지 위치.
-    - D. 아마존 클라우드프론트.
+    - D. Amazon CloudFront.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
@@ -491,7 +491,7 @@ layout: exam
 48. 리소스 요구 사항에 따라 인스턴스를 수동으로 시작하는 데 사용할 수 있는 AWS 서비스는 무엇입니까?
     - A. 아마존 EBS.
     - B. 아마존 S3.
-    - C. 아마존 EC2.
+    - C. Amazon EC2.
     - D. 아마존 ECS.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
