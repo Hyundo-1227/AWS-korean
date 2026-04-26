@@ -2,12 +2,12 @@
 layout: exam
 ---
 
-# 연습 시험 9
+# Practice Exam 9 (한국어)
 
-1. 관리자는 널리 사용되는 IT 솔루션을 신속하게 배포하고 즉시 사용을 시작해야 합니다. 관리자는 어디에서 도움을 받을 수 있나요?
+1. 관리자는 널리 사용되는 IT 솔루션을 신속하게 배포하고 즉시 사용을 시작해야 합니다. 관리자는 어디에서 도움을 받을 수 있습니까?
     - A. AWS Well-Architected 프레임워크 설명서.
-    - B. 아마존 클라우드프론트.
-    - C. AWS 코드커밋.
+    - B. Amazon CloudFront.
+    - C. AWS CodeCommit.
     - D. AWS Quick Start 참조 배포.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -25,10 +25,10 @@ layout: exam
     </details>
 
 3. 다음 중 고객 관리 관계형 데이터베이스를 실행하는 데 사용할 수 있는 AWS 클라우드 서비스는 무엇입니까?
-    - A. 아마존 EC2.
-    - B. 아마존 루트 53.
+    - A. Amazon EC2.
+    - B. Amazon Route 53.
     - C. 아마존 엘라스티캐시.
-    - D. 아마존 다이나모DB.
+    - D. Amazon DynamoDB.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
@@ -46,7 +46,7 @@ layout: exam
 
 5. 다음 중 Amazon Simple Storage Service(Amazon S3) 버킷 액세스를 특정 사용자로 제한할 수 있는 것은 무엇입니까?
     - A. 공개 및 개인 키 쌍.
-    - B. 아마존 인스펙터.
+    - B. Amazon Inspector.
     - C. AWS Identity and Access Management(IAM) 정책.
     - D. 보안 그룹.
 
@@ -56,25 +56,25 @@ layout: exam
 
 6. 기업이 Amazon VPC를 온프레미스 데이터 센터에 연결할 수 있게 해주는 AWS 서비스는 무엇입니까? (2개 선택)
     - A. AWS VPN.
-    - B. 아마존 레드시프트.
+    - B. Amazon Redshift.
     - C. API 게이트웨이.
-    - D. 아마존 다이렉트 커넥트.
+    - D. AWS Direct Connect.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, D
     </details>
 
 7. CPU 사용량을 모니터링하는 데 사용할 수 있는 AWS 서비스 또는 기능은 무엇입니까?
-    - A. AWS 클라우드트레일.
+    - A. AWS CloudTrail.
     - B. VPC 흐름 로그.
-    - C. 아마존 클라우드워치.
-    - D. AWS 구성.
+    - C. Amazon CloudWatch.
+    - D. AWS Config.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
     </details>
 
-8. 보안 및 규정 준수에 대한 공동 책임 모델에서 AWS는 어떤 작업을 담당합니까?
+8. 보안 및 규정 준수에 대한 공유 책임 모델에서 AWS는 어떤 작업을 담당합니까?
     - A. 개인 및 서비스에 대한 액세스 권한을 부여합니다.
     - B. 전송 중인 데이터를 암호화합니다.
     - C. Amazon EC2 호스트 펌웨어를 업데이트하는 중입니다.
@@ -95,8 +95,8 @@ layout: exam
     </details>
 
 10. 정적 웹사이트 호스팅을 위한 저렴한 옵션으로 사용할 수 있는 스토리지 서비스는 무엇입니까?
-    - A. 아마존 빙하.
-    - B. 아마존 다이나모DB.
+    - A. Amazon S3 Glacier.
+    - B. Amazon DynamoDB.
     - C. Amazon 탄력적 파일 시스템(Amazon EFS).
     - D. 아마존 단순 스토리지 서비스(Amazon S3).
 
@@ -104,7 +104,7 @@ layout: exam
       Correct answer: D
     </details>
 
-11. AWS 공동 책임 모델에 따르면 AWS의 단독 책임은 무엇입니까?
+11. AWS 공유 책임 모델에 따르면 AWS의 단독 책임은 무엇입니까?
     - A. 애플리케이션 보안.
     - B. 엣지 위치 관리.
     - C. 패치 관리.
@@ -126,10 +126,10 @@ layout: exam
     </details>
 
 13. 사용자의 AWS 리소스에 대한 무제한 액세스를 허용하는 보안 그룹을 식별하는 AWS 서비스는 무엇입니까?
-    - A. AWS의 신뢰받는 조언자.
-    - B. 아마존 인스펙터.
-    - C. 아마존 클라우드워치.
-    - D. AWS 클라우드트레일.
+    - A. AWS Trusted Advisor.
+    - B. Amazon Inspector.
+    - C. Amazon CloudWatch.
+    - D. AWS CloudTrail.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
@@ -159,7 +159,7 @@ layout: exam
 16. 한 회사가 Amazon EC2 인스턴스에 여러 관계형 데이터베이스를 배포했습니다. 매달 데이터베이스 소프트웨어 공급업체는 데이터베이스에 적용해야 하는 새로운 보안 패치를 출시합니다. 보안 패치를 적용하는 가장 효율적인 방법은 무엇입니까?
     - A. 매월 각 데이터베이스 인스턴스에 연결하고 공급업체로부터 필요한 보안 패치를 다운로드하여 적용합니다.
     - B. Amazon RDS 콘솔을 사용하여 인스턴스에 대한 자동 패치를 활성화합니다.
-    - C. AWS 구성에서. 인스턴스에 대한 규칙과 필요한 패치 수준을 구성합니다.
+    - C. AWS Config에서. 인스턴스에 대한 규칙과 필요한 패치 수준을 구성합니다.
     - D. AWS Systems Manager를 사용하여 일정에 따라 데이터베이스 패치를 자동화하십시오.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -170,7 +170,7 @@ layout: exam
     - A. AWS 소프트웨어 개발 키트.
     - B. AWS 관리 콘솔.
     - C. AWS 코드파이프라인.
-    - D. AWS 구성.
+    - D. AWS Config.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
@@ -240,8 +240,8 @@ layout: exam
 
 24. AWS 청구서를 지불하고 사용량 및 예산 비용을 모니터링하는 데 사용되는 AWS 서비스는 무엇입니까?
     - A. AWS 청구 및 비용 관리.
-    - B. 통합 결제.
-    - C. 아마존 클라우드워치.
+    - B. 통합 결제(Consolidated Billing).
+    - C. Amazon CloudWatch.
     - D. 아마존 퀵사이트.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -260,7 +260,7 @@ layout: exam
 
 26. 회사가 여러 회원 계정에 걸쳐 서비스에 대한 사용 계층을 활용할 수 있게 해주는 AWS 기능은 무엇입니까?
     - A. 서비스 제어 정책(SCP).
-    - B. 통합 결제.
+    - B. 통합 결제(Consolidated Billing).
     - C. 모든 선불 예약 인스턴스.
     - D. AWS 비용 탐색기.
 
@@ -272,7 +272,7 @@ layout: exam
     - A. 아마존 EBS.
     - B. 아마존 커넥트.
     - C. AWS 스토리지 게이트웨이.
-    - D. 아마존 클라우드프론트.
+    - D. Amazon CloudFront.
     - E. AWS 다이렉트 커넥트.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -290,7 +290,7 @@ layout: exam
     </details>
 
 29. 내구성이 뛰어난 온라인 객체 스토리지를 사실상 무제한으로 제공하는 서비스는 무엇입니까?
-    - A. 아마존 레드시프트.
+    - A. Amazon Redshift.
     - B. Amazon 탄력적 파일 시스템(Amazon EFS).
     - C. Amazon Elastic Container Service(Amazon ECS).
     - D. 아마존 S3.
@@ -311,9 +311,9 @@ layout: exam
 
 31. AWS의 웹 애플리케이션에 대한 특정 네트워크의 요청을 차단하여 네트워크 보안을 강화할 수 있는 AWS 서비스 또는 기능은 무엇입니까? (2개 선택)
     - A. AWS WAF.
-    - B. AWS의 신뢰받는 조언자.
+    - B. AWS Trusted Advisor.
     - C. AWS 다이렉트 커넥트.
-    - D. AWS 조직.
+    - D. AWS Organizations.
     - E. 네트워크 ACL.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -331,9 +331,9 @@ layout: exam
     </details>
 
 33. AWS Management Console 및 AWS SDK의 사용자 작업을 포함하여 계정 활동을 지속적으로 모니터링하고 기록하여 위험 감사를 지원하는 서비스는 무엇입니까?
-    - A. 아마존 클라우드워치.
-    - B. AWS 클라우드트레일.
-    - C. AWS 구성.
+    - A. Amazon CloudWatch.
+    - B. AWS CloudTrail.
+    - C. AWS Config.
     - D. AWS 상태.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -344,7 +344,7 @@ layout: exam
     - A. AWS 아티팩트.
     - B. AWS 컨시어지.
     - C. AWS 인증서 관리자.
-    - D. AWS의 신뢰받는 조언자.
+    - D. AWS Trusted Advisor.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
@@ -363,7 +363,7 @@ layout: exam
 
 36. 정적 웹 사이트를 제공할 수 있는 AWS 서비스는 무엇입니까?
     - A. 아마존 S3.
-    - B. 아마존 루트 53.
+    - B. Amazon Route 53.
     - C. 아마존 퀵사이트.
     - D. AWS 엑스레이.
 
@@ -393,7 +393,7 @@ layout: exam
       Correct answer: B, D
     </details>
 
-39. AWS 공동 책임 모델에 따라 AWS 고객은 어떤 책임을 지게 됩니까?
+39. AWS 공유 책임 모델에 따라 AWS 고객은 어떤 책임을 지게 됩니까?
     - A. 물리적 접근 통제.
     - B. 데이터 암호화.
     - C. 저장 장치를 안전하게 폐기합니다.
@@ -403,10 +403,10 @@ layout: exam
       Correct answer: B
     </details>
 
-40. 회사 내 각 부서에 자체 AWS 계정이 있는 경우 통합 결제를 활성화하는 한 가지 방법은 무엇입니까?
+40. 회사 내 각 부서에 자체 AWS 계정이 있는 경우 통합 결제(Consolidated Billing)를 활성화하는 한 가지 방법은 무엇입니까?
     - A. 각 계정에서 AWS 예산을 사용하여 예산에 대해서만 비용을 지불합니다.
     - B. 월별 청구서는 AWS Support에 문의하세요.
-    - C. 지불인 계정에서 AWS 조직을 생성하고 다른 계정을 가입하도록 초대합니다.
+    - C. 지불인 계정에서 AWS Organizations을 생성하고 다른 계정을 가입하도록 초대합니다.
     - D. 모든 송장을 하나의 Amazon Simple Storage Service(Amazon S3) 버킷에 넣고 Amazon Redshift에 데이터를 로드한 다음 결제 보고서를 실행하세요.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -438,7 +438,7 @@ layout: exam
     </details>
 
 43. 하이브리드 AWS 클라우드 아키텍처 전반에 걸쳐 어떤 서비스를 사용할 수 있습니까? (2개 선택)
-    - A. 아마존 루트 53.
+    - A. Amazon Route 53.
     - B. 가상 프라이빗 게이트웨이.
     - C. 클래식 로드 밸런서.
     - D. 자동 확장.
@@ -459,9 +459,9 @@ layout: exam
     </details>
 
 45. 다음 중 빠르고 안정적인 NoSQL 데이터베이스 서비스는 무엇입니까?
-    - A. 아마존 레드시프트.
+    - A. Amazon Redshift.
     - B. 아마존 RDS.
-    - C. 아마존 다이나모DB.
+    - C. Amazon DynamoDB.
     - D. 아마존 S3.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -470,8 +470,8 @@ layout: exam
 
 46. 규정 준수 보고서와 인증서를 얻으려면 어떤 AWS 서비스를 사용해야 합니까?
     - A. AWS 아티팩트.
-    - B. AWS 람다.
-    - C. 아마존 인스펙터.
+    - B. AWS Lambda.
+    - C. Amazon Inspector.
     - D. AWS 인증서 관리자.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -479,11 +479,11 @@ layout: exam
     </details>
 
 47. 지역이 아닌 글로벌로 정의된 AWS 서비스는 무엇입니까? (2개 선택)
-    - A. 아마존 루트 53.
-    - B. 아마존 EC2.
+    - A. Amazon Route 53.
+    - B. Amazon EC2.
     - C. 아마존 S3.
-    - D. 아마존 클라우드프론트.
-    - E. 아마존 다이나모DB.
+    - D. Amazon CloudFront.
+    - E. Amazon DynamoDB.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, D
@@ -511,9 +511,9 @@ layout: exam
 
 50. 여러 AWS 계정을 보유한 회사가 사용량을 결합하여 대량 구매 할인을 받을 수 있는 서비스는 무엇입니까?
     - A. AWS 서버 마이그레이션 서비스.
-    - B. AWS 조직.
+    - B. AWS Organizations.
     - C. AWS 예산.
-    - D. AWS의 신뢰받는 조언자.
+    - D. AWS Trusted Advisor.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
