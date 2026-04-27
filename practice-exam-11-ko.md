@@ -2,7 +2,7 @@
 layout: exam
 ---
 
-# 연습 시험 11
+# Practice Exam 11 (한국어)
 
 1. 회사는 AWS를 사용하여 어떻게 총 소유 비용(TCO)을 줄일 수 있습니까?
     - A. 대규모 자본 지출을 최소화합니다.
@@ -15,19 +15,19 @@ layout: exam
     </details>
 
 2. 강사가 진행하는 환경에서 클라우드 보안에 대해 배우고자 하는 고객을 위해 AWS에서는 어떤 옵션을 제공합니까? (2개 선택)
-    - A. AWS의 신뢰받는 조언자.
-    - B. AWS 온라인 기술 토크.
+    - A. AWS Trusted Advisor.
+    - B. AWS Online Tech Talks.
     - C. AWS 블로그.
     - D. AWS 포럼.
-    - E. AWS 강의실 교육.
+    - E. AWS Classroom Training.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B, E
     </details>
 
 3. 다음 중 AWS Management Console에 대한 액세스 보안을 강화하는 것은 무엇입니까? (2개 선택)
-    - A. AWS 비밀 관리자.
-    - B. AWS 인증서 관리자.
+    - A. AWS Secrets Manager.
+    - B. AWS Certificate Manager.
     - C. AWS 다단계 인증(AWS MFA).
     - D. 보안 그룹.
     - E. 비밀번호 정책.
@@ -38,16 +38,16 @@ layout: exam
 
 4. 다음 중 Amazon Virtual Private Cloud(Amazon VPC) 대시보드를 통해 구성할 수 있는 기능은 무엇입니까? (2개 선택)
     - A. Amazon CloudFront 배포.
-    - B. 아마존 루트 53.
+    - B. Amazon Route 53.
     - C. 보안 그룹.
     - D. 서브넷.
-    - E. 탄력적 로드 밸런싱.
+    - E. Elastic Load Balancing.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C, D
     </details>
 
-5. AWS는 어떤 감사 프로세스에 대해 전적인 책임을 지게 됩니까?
+5. 다음 중 AWS가 전적으로 책임지는 감사 영역은 무엇입니까?
     - A. AWS IAM 정책.
     - B. 물리적 보안.
     - C. Amazon S3 버킷 정책.
@@ -62,7 +62,7 @@ layout: exam
     - B. 모든 계정에서 기본적으로 서비스 한도가 증가합니다.
     - C. 월별 청구서에 대한 고정 할인입니다.
     - D. 모든 계정의 사용량이 통합되므로 잠재적인 볼륨 할인이 가능합니다.
-    - E. 마스터 계정의 AWS 지원 계획이 모든 계정으로 자동 확장됩니다.
+    - E. 관리 계정의 AWS 지원 계획이 모든 계정으로 자동 확장됩니다.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, D
@@ -79,19 +79,19 @@ layout: exam
       Correct answer: A, C
     </details>
 
-8. 회사는 하나의 AWS 리전에서 두 번째 AWS 리전으로 확장하려고 합니다. 새로운 지역 지원을 시작하려면 회사에서 무엇을 해야 합니까?
-    - A. 새 계약에 서명하려면 AWS 계정 관리자에게 문의하세요.
-    - B. 가용 영역을 새 지역으로 이동합니다.
-    - C. 두 번째 지역에서 리소스 배포를 시작합니다.
+8. 회사는 하나의 AWS 리전에서 두 번째 AWS 리전으로 확장하려고 합니다. 새로운 리전 지원을 시작하려면 회사에서 무엇을 해야 합니까?
+    - A. 새 계약에 서명하려면 AWS Account Manager에게 문의하세요.
+    - B. 가용 영역을 새 리전으로 이동합니다.
+    - C. 두 번째 리전에서 리소스 배포를 시작합니다.
     - D. 새 리전에 대한 AWS Management Console을 다운로드합니다.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
     </details>
 
-9. 애플리케이션과 함께 Elastic Load Balancer를 사용하는 것이 왜 유익한가요?
-    - A. 이는 애플리케이션 로드에서의 변환을 허용합니다.
-    - B. 밸런서에서 Classic Load Balancer로.
+9. 애플리케이션과 함께 Elastic Load Balancer를 사용하는 것이 왜 유용합니까?
+    - A. 애플리케이션 로드 밸런서로의 전환을 지원합니다.
+    - B. Classic Load Balancer로의 전환을 지원합니다.
     - C. 네트워크 트래픽 패턴의 지속적인 변화를 처리할 수 있습니다.
     - D. 자동으로 용량을 조정합니다. 사용자에게 무료로 제공됩니다.
 
@@ -99,20 +99,20 @@ layout: exam
       Correct answer: C
     </details>
 
-10. 지원 사례에 대해 1시간의 목표 응답 시간을 허용하는 최소 AWS Support 계획은 무엇입니까?
-    - A. 기업.
-    - B. 사업.
+10. 지원 사례에 대해 목표 응답 시간이 1시간인 최소 AWS Support 플랜은 무엇입니까?
+    - A. Enterprise.
+    - B. Business.
     - C. 개발자
-    - D. 기초적인
+    - D. Basic
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
     </details>
 
 11. 즉각적인 검색을 위해 데이터베이스 백업을 보관하기 위한 가장 저렴하고 내구성 있는 스토리지 옵션은 무엇입니까?
-    - A. 아마존 S3.
-    - B. 아마존 빙하.
-    - C. 아마존 EBS.
+    - A. Amazon S3.
+    - B. Amazon S3 Glacier.
+    - C. Amazon EBS.
     - D. Amazon EC2 인스턴스 스토어.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -121,29 +121,29 @@ layout: exam
 
 12. 여러 전문 실무 영역에서 유료 참여를 통해 고객이 클라우드 채택을 가속화하도록 지원하는 AWS 팀은 무엇입니까?
     - A. AWS 엔터프라이즈 지원.
-    - B. AWS 솔루션 아키텍트.
-    - C. AWS 전문 서비스.
-    - D. AWS 계정 관리자.
+    - B. AWS Solutions Architects.
+    - C. AWS Professional Services.
+    - D. AWS Account Manager.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
     </details>
 
 13. 프로덕션 시스템에 서비스 중단이 발생한 경우 회사는 1시간 미만의 응답 시간으로 연중무휴 24시간 전화 이메일 및 채팅 액세스가 필요합니다. 어떤 AWS Support 플랜이 이러한 요구 사항을 최저 비용으로 충족합니까?
-    - A. 기초적인.
+    - A. Basic.
     - B. 개발자.
-    - C. 사업.
-    - D. 기업.
+    - C. Business.
+    - D. Enterprise.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
     </details>
 
 14. 고객이 AWS 리소스의 변경 관리를 감사해야 하는 경우 고객은 다음 중 어떤 AWS 서비스를 사용해야 합니까?
-    - A. AWS 구성.
-    - B. AWS의 신뢰받는 조언자.
-    - C. 아마존 클라우드워치.
-    - D. 아마존 인스펙터.
+    - A. AWS Config.
+    - B. AWS Trusted Advisor.
+    - C. Amazon CloudWatch.
+    - D. Amazon Inspector.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
@@ -161,16 +161,16 @@ layout: exam
     </details>
 
 16. 데이터베이스를 호스팅하는 데 사용되는 AWS 관리형 서비스는 무엇입니까?
-    - A. AWS 배치.
-    - B. AWS 아티팩트.
-    - C. AWS 데이터 파이프라인.
-    - D. 아마존 RDS.
+    - A. AWS Batch.
+    - B. AWS Artifact.
+    - C. AWS Data Pipeline.
+    - D. Amazon RDS.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
     </details>
 
-17. 다음 중 AWS 명령줄 인터페이스(AWS CLI)를 사용할 때 액세스 키 ID 및 보안 액세스 키와 연결되는 IAM(Identity and Access Management) 엔터티는 무엇입니까?
+17. 다음 중 AWS 명령줄 인터페이스(CLI)(AWS CLI)를 사용할 때 액세스 키 ID 및 보안 액세스 키와 연결되는 IAM(Identity and Access Management) 엔터티는 무엇입니까?
     - A. IAM 그룹.
     - B. IAM 사용자.
     - C. IAM 역할.
@@ -191,10 +191,10 @@ layout: exam
     </details>
 
 19. Linux 기반 AWS 및 온프레미스 서버에서 사용할 수 있는 간단하고 확장 가능한 공유 파일 스토리지 솔루션을 제공하는 AWS 서비스는 무엇입니까?
-    - A. 아마존 S3.
-    - B. 아마존 빙하.
-    - C. 아마존 EBS.
-    - D. 아마존 EFS.
+    - A. Amazon S3.
+    - B. Amazon S3 Glacier.
+    - C. Amazon EBS.
+    - D. Amazon EFS.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
@@ -222,10 +222,10 @@ layout: exam
     </details>
 
 22. 어떤 유형의 AWS 스토리지가 임시적이며 인스턴스가 중지되거나 종료되면 삭제됩니까?
-    - A. 아마존 EBS.
+    - A. Amazon EBS.
     - B. Amazon EC2 인스턴스 스토어.
-    - C. 아마존 EFS.
-    - D. 아마존 S3.
+    - C. Amazon EFS.
+    - D. Amazon S3.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
@@ -242,10 +242,10 @@ layout: exam
     </details>
 
 24. AWS 서버리스 플랫폼의 일부인 서비스는 무엇입니까?
-    - A. 아마존 EC2, 아마존 S3, 아마존 아테나.
-    - B. 아마존 키네시스, 아마존 SQS, 아마존 EMR.
+    - A. Amazon EC2, Amazon S3, Amazon Athena.
+    - B. Amazon Kinesis, 아마존 SQS, 아마존 EMR.
     - C. AWS Step Functions, Amazon DynamoDB, Amazon SNS.
-    - D. 아마존 아테나, 아마존 코그니토, 아마존 EC2.
+    - D. Amazon Athena, Amazon Cognito, Amazon EC2.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
@@ -253,9 +253,9 @@ layout: exam
 
 25. 다음 중 고객이 기존 서버 전용 소프트웨어 라이선스를 사용할 수 있는 Amazon EC2 요금 모델은 무엇입니까?
     - A. 스팟 인스턴스.
-    - B. 예약 인스턴스.
+    - B. Reserved 인스턴스.
     - C. 전용 호스트.
-    - D. 온디맨드 인스턴스.
+    - D. On-Demand 인스턴스.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
@@ -285,7 +285,7 @@ layout: exam
 28. 여러 가용 영역에 애플리케이션을 배포하면 어떤 이점이 있나요?
     - A. 자연재해로 인해 특정 AWS 리전에서 서비스가 중단되는 경우 서비스 실패 위험이 낮아집니다.
     - B. 애플리케이션은 하나의 가용 영역에서 서비스 중단을 견딜 수 있으므로 가용성이 더 높습니다.
-    - C. 가용 영역은 지리적으로 멀리 떨어져 있고 더 넓은 지역에 서비스를 제공할 수 있으므로 더 나은 적용 범위가 제공됩니다.
+    - C. 가용 영역은 지리적으로 멀리 떨어져 있고 더 넓은 리전에 서비스를 제공할 수 있으므로 더 나은 적용 범위가 제공됩니다.
     - D. 사용자 경험을 향상시키는 애플리케이션 대기 시간이 줄어들 것입니다.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -293,10 +293,10 @@ layout: exam
     </details>
 
 29. 고객은 쉽게 확장할 수 있는 MySQL 데이터베이스를 실행해야 합니다. 어떤 AWS 서비스를 사용해야 합니까?
-    - A. 아마존 오로라.
-    - B. 아마존 레드시프트.
-    - C. 아마존 다이나모DB.
-    - D. 아마존 엘라스티캐시.
+    - A. Amazon Aurora.
+    - B. Amazon Redshift.
+    - C. Amazon DynamoDB.
+    - D. Amazon ElastiCache.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
@@ -313,10 +313,10 @@ layout: exam
     </details>
 
 31. AWS Enterprise Support 사용자는 다른 AWS Support 플랜 사용자가 사용할 수 없는 서비스 또는 기능에 액세스할 수 있습니까?
-    - A. AWS의 신뢰받는 조언자.
+    - A. AWS Trusted Advisor.
     - B. AWS 지원 사례.
     - C. 컨시어지 팀.
-    - D. 아마존 커넥트.
+    - D. Amazon Connect.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
@@ -334,18 +334,18 @@ layout: exam
 
 33. 고객 워크로드의 물리적 격리를 지원하는 비용 분석을 수행할 때 총 소유 비용(TCO)에서 어떤 컴퓨팅 호스팅 모델을 고려해야 합니까?
     - A. 전용 호스트
-    - B. 예약 인스턴스
-    - C. 온디맨드 인스턴스
-    - D. 선결제 예약 인스턴스 없음
+    - B. Reserved 인스턴스
+    - C. On-Demand 인스턴스
+    - D. 선결제 Reserved 인스턴스 없음
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
     </details>
 
 34. 장기간 저비용으로 데이터 백업을 저장하려면 어떤 AWS 서비스를 사용해야 합니까?
-    - A. 아마존 RDS.
-    - B. 아마존 빙하.
-    - C. AWS 스노우볼.
+    - A. Amazon RDS.
+    - B. Amazon S3 Glacier.
+    - C. AWS Snowball.
     - D. AWS EBS.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -353,17 +353,17 @@ layout: exam
     </details>
 
 35. 전화 통화를 통해 기술 지원을 제공하는 최소 AWS Support 플랜은 무엇입니까?
-    - A. 기업.
-    - B. 사업.
+    - A. Enterprise.
+    - B. Business.
     - C. 개발자.
-    - D. 기초적인.
+    - D. Basic.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
     </details>
 
 36. 최대 90% 할인을 제공할 수 있는 Amazon EC2 인스턴스 요금 모델은 무엇입니까?
-    - A. 예약 인스턴스.
+    - A. Reserved 인스턴스.
     - B. 온디맨드.
     - C. 전용 호스트.
     - D. 스팟 인스턴스.
@@ -374,10 +374,10 @@ layout: exam
 
 37. 다음 중 지연 시간을 최소화하면서 대량의 온라인 비디오 콘텐츠를 제공하는 데 사용할 수 있는 AWS 서비스는 무엇입니까? (2개 선택)
     - A. appGateway.
-    - B. 아마존 S3.
+    - B. Amazon S3.
     - C. Amazon 탄력적 파일 시스템(EFS).
-    - D. 아마존 빙하.
-    - E. 아마존 클라우드프론트.
+    - D. Amazon S3 Glacier.
+    - E. Amazon CloudFront.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B, E
@@ -408,7 +408,7 @@ layout: exam
     - A. AWS 서비스 상태 대시보드.
     - B. AWS 엑스레이.
     - C. AWS 개인 건강 대시보드.
-    - D. 아마존 클라우드워치.
+    - D. Amazon CloudWatch.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
@@ -427,17 +427,17 @@ layout: exam
 42. AWS Basic Support 플랜을 보유한 AWS 사용자는 어떻게 AWS로부터 기술 지원을 받을 수 있습니까?
     - A. AWS 수석 지원 엔지니어.
     - B. AWS 기술 계정 관리자.
-    - C. AWS의 신뢰받는 조언자.
+    - C. AWS Trusted Advisor.
     - D. AWS 토론 포럼.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
     </details>
 
-43. 자연 재해가 전체 지역에 영향을 미치는 경우 사용자는 어떻게 AWS 서비스 중단으로부터 보호할 수 있습니까?
+43. 자연 재해가 전체 리전에 영향을 미치는 경우 사용자는 어떻게 AWS 서비스 중단으로부터 보호할 수 있습니까?
     - A. AWS 리전 내의 여러 가용 영역에 애플리케이션을 배포합니다.
     - B. 지리적 영역 내에서 하이브리드 클라우드 컴퓨팅 배포 모델을 사용합니다.
-    - C. 여러 AWS 지역에 애플리케이션을 배포합니다.
+    - C. 여러 AWS 리전에 애플리케이션을 배포합니다.
     - D. AWS Artifact를 사용하여 애플리케이션 아티팩트를 저장하고 여러 AWS 리전에 복제합니다.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -458,7 +458,7 @@ layout: exam
     - A. 회사에서 기본 웹 사이트를 온프레미스 웹 서버에서 AWS로 이전하려고 합니다.
     - B. 한 회사에는 SLA(서비스 수준 계약)에서 99.999% 가동 시간을 요구하는 여러 애플리케이션 서비스가 있습니다.
     - C. 한 회사에서 많이 사용되는 레거시 데이터베이스가 현재 온프레미스에서 실행되고 있습니다.
-    - D. 회사에는 현재 온디맨드 인스턴스를 사용하고 있는 드물지만 중단 가능한 작업이 많이 있습니다.
+    - D. 회사에는 현재 On-Demand 인스턴스를 사용하고 있는 드물지만 중단 가능한 작업이 많이 있습니다.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
@@ -478,7 +478,7 @@ layout: exam
 47. AWS 이벤트가 회사의 AWS 리소스에 영향을 미칠 수 있을 때 경고를 제공하는 AWS 서비스는 무엇입니까?
     - A. AWS 개인 건강 대시보드.
     - B. AWS 서비스 상태 대시보드.
-    - C. AWS의 신뢰받는 조언자.
+    - C. AWS Trusted Advisor.
     - D. AWS 인프라 이벤트 관리.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -496,9 +496,9 @@ layout: exam
     </details>
 
 49. 소프트웨어 버전 관리는 어떤 서비스의 주요 목적입니까?
-    - A. 아마존 코드스타.
-    - B. AWS 명령줄 인터페이스(AWS CLI).
-    - C. 아마존 코그니토.
+    - A. Amazon CodeStar.
+    - B. AWS 명령줄 인터페이스(CLI)(AWS CLI).
+    - C. Amazon Cognito.
     - D. AWS 코드커밋.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -506,11 +506,11 @@ layout: exam
     </details>
 
 50. 고객이 AWS 계정 로그온에 대한 보안을 강화하려면 어떻게 해야 합니까? (2개 선택)
-    - A. AWS 인증서 관리자 구성
+    - A. AWS Certificate Manager 구성
     - B. 다단계 인증(MFA) 활성화
     - C. Amazon Cognito를 사용하여 액세스 관리
     - D. 강력한 비밀번호 정책 구성
-    - E. AWS 조직 활성화
+    - E. AWS Organizations 활성화
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B, D
