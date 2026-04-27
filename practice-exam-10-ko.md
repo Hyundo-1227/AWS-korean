@@ -2,11 +2,11 @@
 layout: exam
 ---
 
-# 연습 시험 10
+# Practice Exam 10 (한국어)
 
 1. 다음 중 AWS 고객이 새로운 Amazon Relational Database Service(Amazon RDS) 클러스터를 시작하는 데 사용할 수 있는 것은 무엇입니까? (2개 선택)
     - A. AWS 컨시어지.
-    - B. AWS 클라우드포메이션.
+    - B. AWS CloudFormation.
     - C. 아마존 단순 스토리지 서비스(Amazon S3).
     - D. Amazon EC2 자동 스케일링.
     - E. AWS 관리 콘솔.
@@ -15,32 +15,32 @@ layout: exam
       Correct answer: B, E
     </details>
 
-2. 다음 예약 인스턴스(RI) 가격 모델 중 온디맨드 가격에 비해 평균 절감액이 가장 높은 것은 무엇입니까?
-    - A. 1년, 선결제 없음, 표준 RI 가격.
-    - B. 1년, 전체 선결제, 컨버터블 RI 가격.
-    - C. 3년, 전체 선결제, 표준 RI 가격.
-    - D. 3년, 선결제 없음, 컨버터블 RI 가격.
+2. 다음 Reserved Instance(RI) 가격 모델 중 On-Demand 대비 평균 절감률이 가장 높은 것은 무엇입니까?
+    - A. 1년, No Upfront, Standard RI.
+    - B. 1년, All Upfront, Convertible RI.
+    - C. 3년, All Upfront, Standard RI.
+    - D. 3년, No Upfront, Convertible RI.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
     </details>
 
 3. 다음 중 Amazon CloudWatch Logs의 기능은 무엇입니까? (2개 선택)
-    - A. Amazon Simple 알림 서비스(Amazon SNS)의 요약입니다.
-    - B. 무료 Amazon Elasticsearch Service 분석.
+    - A. Amazon SNS 요약 정보를 제공합니다.
+    - B. 추가 비용 없는 Amazon Elasticsearch Service 분석.
     - C. 무료로 제공됩니다.
     - D. 실시간 모니터링.
-    - E. 조정 가능한 보존.
+    - E. 조정 가능한 보존 기간.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D, E
     </details>
 
 4. 다음 중 AWS 관리형 컴퓨팅 서비스는 무엇입니까?
-    - A. 아마존 SWF.
-    - B. 아마존 EC2.
-    - C. AWS 람다.
-    - D. 아마존 오로라.
+    - A. Amazon SWF.
+    - B. Amazon EC2.
+    - C. AWS Lambda.
+    - D. Amazon Aurora.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
@@ -48,15 +48,15 @@ layout: exam
 
 5. 회사에서는 개발자가 코드를 실행하는 데 사용하는 물리적 컴퓨팅 공간을 줄이고 싶어합니다. 서버리스 아키텍처를 활성화하여 이러한 요구 사항을 충족하는 서비스는 무엇입니까?
     - A. Amazon Elastic Compute Cloud(Amazon EC2).
-    - B. AWS 람다.
-    - C. 아마존 다이나모DB.
-    - D. AWS 코드커밋.
+    - B. AWS Lambda.
+    - C. Amazon DynamoDB.
+    - D. AWS CodeCommit.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
     </details>
 
-6. 다음 중 AWS 공동 책임 모델에 따른 고객의 책임은 무엇입니까?
+6. 다음 중 AWS 공유 책임 모델에 따른 고객의 책임은 무엇입니까?
     - A. 기본 인프라 패치
     - B. 물리적 보안
     - C. Amazon EC2 인스턴스 패치
@@ -70,23 +70,23 @@ layout: exam
     - A. 이는 전적으로 고객의 책임입니다.
     - B. 이는 전적으로 AWS의 책임입니다.
     - C. 이는 AWS와 고객 간에 공유됩니다.
-    - D. 이는 AWS 공동 책임 모델의 일부가 아닙니다.
+    - D. 이는 AWS 공유 책임 모델의 일부가 아닙니다.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
     </details>
 
 8. AWS의 민감한 데이터나 지적 재산을 자동으로 인식하고 분류하는 보안 서비스는 무엇입니까?
-    - A. 아마존 가드듀티.
-    - B. 아마존 메이시.
-    - C. 아마존 인스펙터.
-    - D. AWS 쉴드.
+    - A. Amazon GuardDuty.
+    - B. Amazon Macie.
+    - C. Amazon Inspector.
+    - D. AWS Shield.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
     </details>
 
-9. 다음 중 AWS 가격 모델을 가장 잘 설명한 것은 무엇입니까? (2개 선택)
+9. 다음 중 AWS 요금 모델을 가장 잘 설명한 것은 무엇입니까? (2개 선택)
     - A. 고정 기간.
     - B. 종량제.
     - C. 코로케이션.
@@ -97,7 +97,7 @@ layout: exam
       Correct answer: B, E
     </details>
 
-10. 공동 책임 모델에서 다음 중 AWS 고객의 책임은 무엇입니까? (2개 선택)
+10. 공유 책임 모델에서 다음 중 AWS 고객의 책임은 무엇입니까? (2개 선택)
     - A. 애플리케이션 데이터가 미사용 상태에서 암호화되도록 보장합니다.
     - B. AWS NTP 서버가 올바른 시간으로 설정되어 있는지 확인합니다.
     - C. 사용자가 AWS 서비스 사용에 대한 보안 교육을 받았는지 확인합니다.
@@ -111,7 +111,7 @@ layout: exam
 11. 고객이 별도의 청구가 가능한 여러 AWS 계정을 사용하고 있습니다. 고객이 AWS 리소스에 미치는 영향을 최소화하면서 대량 구매 할인을 어떻게 활용할 수 있습니까?
     - A. 하나의 글로벌 AWS 계정을 생성하고 모든 AWS 리소스를 해당 계정으로 이동합니다.
     - B. 3년 동안 예약 인스턴스 가격을 미리 등록하세요.
-    - C. AWS Organizations의 통합 결제 기능을 사용하세요.
+    - C. AWS Organizations의 통합 결제(Consolidated Billing) 기능을 사용하세요.
     - D. 대량 구매 할인을 받으려면 AWS 엔터프라이즈 지원 플랜에 가입하세요.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -129,10 +129,10 @@ layout: exam
     </details>
 
 13. 끊임없이 변화하는 데이터를 읽고 쓰려면 어떤 AWS 서비스를 사용해야 합니까? (2개 선택)
-    - A. 아마존 빙하.
+    - A. Amazon S3 Glacier.
     - B. 아마존 RDS.
     - C. AWS 스노우볼.
-    - D. 아마존 레드시프트.
+    - D. Amazon Redshift.
     - E. 아마존 EFS.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -140,8 +140,8 @@ layout: exam
     </details>
 
 14. 사용자가 시간 경과에 따른 리소스 변경 사항을 식별할 수 있는 AWS 서비스는 무엇입니까?
-    - A. 아마존 인스펙터.
-    - B. AWS 구성.
+    - A. Amazon Inspector.
+    - B. AWS Config.
     - C. AWS 서비스 카탈로그.
     - D. AWS IAM.
 
@@ -171,7 +171,7 @@ layout: exam
     </details>
 
 17. 다음 중 AWS 관리형 DNS(Domain Name System) 웹 서비스는 무엇입니까?
-    - A. 아마존 루트 53.
+    - A. Amazon Route 53.
     - B. 아마존 넵튠.
     - C. 아마존 세이지메이커.
     - D. 아마존 라이트세일.
@@ -235,8 +235,8 @@ layout: exam
 23. 회사에서는 컴퓨팅 및 용량을 관리하는 대신 비즈니스 활동에 집중하기를 원합니다. 수요에 따라 Amazon EC2 인스턴스를 자동으로 추가하거나 제거하는 데 사용할 수 있는 AWS 서비스는 무엇입니까?
     - A. 탄력적 로드 밸런서.
     - B. Amazon EC2 자동 스케일링.
-    - C. 아마존 루트 53.
-    - D. 아마존 클라우드프론트.
+    - C. Amazon Route 53.
+    - D. Amazon CloudFront.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
@@ -283,11 +283,11 @@ layout: exam
     </details>
 
 28. AWS 계정 활동에 대한 정보를 수집하는 데 어떤 AWS 서비스를 사용할 수 있습니까? (2개 선택)
-    - A. 아마존 클라우드프론트.
+    - A. Amazon CloudFront.
     - B. AWS 클라우드9.
-    - C. AWS 클라우드트레일.
+    - C. AWS CloudTrail.
     - D. AWS CloudHSM.
-    - E. 아마존 클라우드워치.
+    - E. Amazon CloudWatch.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C, E
@@ -317,7 +317,7 @@ layout: exam
 31. 다음 중 AWS 서버리스 플랫폼 카테고리에 속하는 서비스는 무엇입니까?
     - A. 아마존 EMR.
     - B. 탄력적 로드 밸런싱.
-    - C. AWS 람다.
+    - C. AWS Lambda.
     - D. AWS 모바일 허브.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -326,7 +326,7 @@ layout: exam
 
 32. 기업은 어떤 AWS 기능이나 서비스를 사용하여 지출을 세부적인 수준으로 추적하고 분류할 수 있습니까?
     - A. 비용 할당 태그.
-    - B. 통합 결제.
+    - B. 통합 결제(Consolidated Billing).
     - C. AWS 예산.
     - D. AWS 마켓플레이스.
 
@@ -336,8 +336,8 @@ layout: exam
 
 33. 다음 중 사용자의 비용을 절감하고 시스템 성능을 향상할 수 있는 기회를 찾기 위해 AWS 환경을 검사하는 것은 무엇입니까?
     - A. AWS 비용 탐색기.
-    - B. AWS의 신뢰받는 조언자.
-    - C. 통합 결제.
+    - B. AWS Trusted Advisor.
+    - C. 통합 결제(Consolidated Billing).
     - D. 자세한 청구.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -365,9 +365,9 @@ layout: exam
     </details>
 
 36. 관리형 NoSQL 데이터베이스는 어떤 AWS 서비스입니까?
-    - A. 아마존 레드시프트.
-    - B. 아마존 다이나모DB.
-    - C. 아마존 오로라.
+    - A. Amazon Redshift.
+    - B. Amazon DynamoDB.
+    - C. Amazon Aurora.
     - D. ManaDB용 Amazon RDS.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -395,10 +395,10 @@ layout: exam
     </details>
 
 39. Microsoft SQL Server 데이터베이스를 호스팅할 수 있는 AWS 서비스는 무엇입니까? (2개 선택)
-    - A. 아마존 EC2.
+    - A. Amazon EC2.
     - B. Amazon 관계형 데이터베이스 서비스(Amazon RDS).
-    - C. 아마존 오로라.
-    - D. 아마존 레드시프트.
+    - C. Amazon Aurora.
+    - D. Amazon Redshift.
     - E. 아마존 S3.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -447,9 +447,9 @@ layout: exam
 
 44. 용량 계획을 결정하지 않고 애플리케이션을 자동으로 확장 및 축소하는 데 사용할 수 있는 AWS 서비스는 무엇입니까?
     - A. 아마존 오토스케일링.
-    - B. 아마존 레드시프트.
-    - C. AWS 클라우드트레일.
-    - D. AWS 람다.
+    - B. Amazon Redshift.
+    - C. AWS CloudTrail.
+    - D. AWS Lambda.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
@@ -486,7 +486,7 @@ layout: exam
     </details>
 
 48. 객체를 저장하고 해당 객체에 대한 실시간 액세스를 제공하며 버전 관리 및 수명주기 기능을 제공하는 서비스는 무엇입니까?
-    - A. 아마존 빙하.
+    - A. Amazon S3 Glacier.
     - B. AWS 스토리지 게이트웨이.
     - C. 아마존 S3.
     - D. 아마존 EBS.
@@ -507,9 +507,9 @@ layout: exam
 
 50. 여러 AWS 계정을 통합하고 중앙에서 관리하려면 고객이 어떤 서비스를 사용해야 합니까?
     - A. AWS IAM.
-    - B. AWS 조직.
+    - B. AWS Organizations.
     - C. AWS 스키마 변환 도구.
-    - D. AWS 구성.
+    - D. AWS Config.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
